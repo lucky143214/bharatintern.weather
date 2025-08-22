@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Weather App Project JavaScript | </title>
-    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
+    <meta name="description" content="Weather Dashboard - Get current weather and 5-day forecast">
+    <title>Weather Dashboard</title>
+    
+    <!-- ✅ Link CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- ✅ Script -->
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <h1>Weather Dashboard</h1>
     <div class="container">
+      
+      <!-- Input Section -->
       <div class="weather-input">
         <h3>Enter a City Name</h3>
         <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
@@ -17,52 +24,55 @@
         <div class="separator"></div>
         <button class="location-btn">Use Current Location</button>
       </div>
+      
+      <!-- Weather Data -->
       <div class="weather-data">
         <div class="current-weather">
           <div class="details">
-            <h2>(  )</h2>
+            <h2>(City)</h2>
             <h6>Temperature: °C</h6>
-            <h6>Wind:  M/S</h6>
+            <h6>Wind: m/s</h6>
             <h6>Humidity: %</h6>
           </div>
         </div>
+
+        <!-- Forecast Section -->
         <div class="days-forecast">
           <h2>5-Day Forecast</h2>
           <ul class="weather-cards">
             <li class="card">
-              <h3>(  )</h3>
-              <h6>Temp:  C</h6>
-              <h6>Wind:  M/S</h6>
+              <h3>(Day)</h3>
+              <h6>Temp: °C</h6>
+              <h6>Wind: m/s</h6>
               <h6>Humidity: %</h6>
             </li>
             <li class="card">
-              <h3>(  )</h3>
-              <h6>Temp: </h6>
-              <h6>Wind:  M/S</h6>
+              <h3>(Day)</h3>
+              <h6>Temp: °C</h6>
+              <h6>Wind: m/s</h6>
               <h6>Humidity: %</h6>
             </li>
             <li class="card">
-              <h3>(  )</h3>
-              <h6>Temp:  C</h6>
-              <h6>Wind:  M/S</h6>
-              <h6>Humidity:  %</h6>
-            </li>
-            <li class="card">
-              <h3>(  )</h3>
-              <h6>Temp:  C</h6>
-              <h6>Wind:  M/S</h6>
+              <h3>(Day)</h3>
+              <h6>Temp: °C</h6>
+              <h6>Wind: m/s</h6>
               <h6>Humidity: %</h6>
             </li>
             <li class="card">
-              <h3>(  )</h3>
-              <h6>Temp: C</h6>
-              <h6>Wind:  M/S</h6>
+              <h3>(Day)</h3>
+              <h6>Temp: °C</h6>
+              <h6>Wind: m/s</h6>
+              <h6>Humidity: %</h6>
+            </li>
+            <li class="card">
+              <h3>(Day)</h3>
+              <h6>Temp: °C</h6>
+              <h6>Wind: m/s</h6>
               <h6>Humidity: %</h6>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    
   </body>
 </html>
